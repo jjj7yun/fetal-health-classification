@@ -80,13 +80,12 @@ Kaggle에 공유된 ‘Fetal Health Classification’ 데이터로, 태아 CTG �
 ![image](https://user-images.githubusercontent.com/79688191/145771326-884c2589-20bc-4c0f-b03c-b0ebce1323e1.png)
 
 
-2. 태아 건강상태에 영향을 주는 주요한 변수는 mean_value_of_short_term_variability 
-     (단기 변동성 평균), abnormal_long_term_variability(비정상적인 장기 변동성 비율) 이다![image](https://user-images.githubusercontent.com/79688191/145771416-002852be-4ee4-490b-b601-3a5666322ac0.png)
+2. 태아 건강상태에 영향을 주는 주요한 변수는 mean_value_of_short_term_variability (단기 변동성 평균), abnormal_long_term_variability(비정상적인 장기 변동성 비율) 이다
 
 
 3. 불균형 데이터를 Oversampling, Undersampling 등의 방법으로 조정하여          
      모델의 성능을 개선할 수 있다. 
-![image](https://user-images.githubusercontent.com/79688191/145771429-95a210f4-e47c-4872-99a4-7093da0e8de8.png)
+
 
 ![image](https://user-images.githubusercontent.com/79688191/145771346-c0809cd3-619b-474b-b375-ccafa1707bd0.png)
 
