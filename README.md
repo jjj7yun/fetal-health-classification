@@ -39,11 +39,11 @@ Kaggle에 공유된 ‘Fetal Health Classification’ 데이터로, 태아 CTG �
 
 
 3. Train/Test Set 분리 
-![image](https://user-images.githubusercontent.com/79688191/145770889-be905fb8-a2f4-4bba-8f6f-e54c1144f595.png)
+![image](https://user-images.githubusercontent.com/79688191/145771111-30689a94-9851-4f88-8f05-bfd802105545.png)
 
 
 4. Feature / Label 분리
-![image](https://user-images.githubusercontent.com/79688191/145770905-db201936-3950-4087-8473-d3237d470b4e.png)
+![image](https://user-images.githubusercontent.com/79688191/145771138-d6d78e37-2e06-4672-849c-3959e35ad662.png)
 
 5. 표준화
 
@@ -52,16 +52,52 @@ Kaggle에 공유된 ‘Fetal Health Classification’ 데이터로, 태아 CTG �
 ### Result
 1. 불균형 데이터 조정 - SMOTE , ENN 
 - Undersampling 기법인 ENN과 Oversampling 기법인 SMOTE를 적용 
-![image](https://user-images.githubusercontent.com/79688191/145770975-003ce442-6943-4fd9-a833-0afd482302ce.png)
+![image](https://user-images.githubusercontent.com/79688191/145771161-416ac740-90c3-4397-bff3-335797c14734.png)
 
 - ENN과 SMOTE 복합 방식 적용
-![image](https://user-images.githubusercontent.com/79688191/145771001-359e99a9-4ce9-401e-b076-030a49aac6e2.png)
+![image](https://user-images.githubusercontent.com/79688191/145771172-63ef11cb-8f07-4bac-9f46-8fc1122785a5.png)
 
 
-2. Logistic Regression![image](https://user-images.githubusercontent.com/79688191/145771026-77eeab32-a5b8-4616-97b3-cfab3e941f5e.png)
+2. Logistic Regression
+
+![image](https://user-images.githubusercontent.com/79688191/145771195-3eee1b6c-9f17-400c-b98f-2649dd87c86e.png)
+
 
  3.SVC
-![image](https://user-images.githubusercontent.com/79688191/145771054-e05bbb3e-025b-48c6-95d2-60da38d711ea.png)
+
+![image](https://user-images.githubusercontent.com/79688191/145771212-d84820f6-df18-4070-b3cb-25c4eaf634e7.png)
+
+
+4. Decision Tree classifier
+
+![image](https://user-images.githubusercontent.com/79688191/145771247-c2231749-f5d2-4571-a2d4-4b412b4401e1.png)
+
+
+5. Random forest classifier
+![image](https://user-images.githubusercontent.com/79688191/145771281-33053e7a-46ad-4090-9aaf-444e4ae47caa.png)
+
+
+결론
+1. CTG 검사 데이터의 21개 변수들을 통해 태아 건강상태를 예측할 수 있다.
+태아의 심박수, 움직임, 심장박동, 단/장기 변동성, 단/장기의 비정상적인 변동성 비율, 산모의 자궁 수축 등의 변수들로 태아의 건강상태를 예측할 수 있다. 
+
+
+![image](https://user-images.githubusercontent.com/79688191/145771326-884c2589-20bc-4c0f-b03c-b0ebce1323e1.png)
+
+
+2. 태아 건강상태에 영향을 주는 주요한 변수는 mean_value_of_short_term_variability 
+     (단기 변동성 평균), abnormal_long_term_variability(비정상적인 장기 변동성 비율) 이다![image](https://user-images.githubusercontent.com/79688191/145771416-002852be-4ee4-490b-b601-3a5666322ac0.png)
+
+
+3. 불균형 데이터를 Oversampling, Undersampling 등의 방법으로 조정하여          
+     모델의 성능을 개선할 수 있다. 
+![image](https://user-images.githubusercontent.com/79688191/145771429-95a210f4-e47c-4872-99a4-7093da0e8de8.png)
+
+![image](https://user-images.githubusercontent.com/79688191/145771346-c0809cd3-619b-474b-b375-ccafa1707bd0.png)
+
+
+
+
 
 
 
