@@ -60,21 +60,16 @@ Kaggle에 공유된 ‘Fetal Health Classification’ 데이터로, 태아 CTG �
 
 2. Logistic Regression
 
-![image](https://user-images.githubusercontent.com/79688191/145771195-3eee1b6c-9f17-400c-b98f-2649dd87c86e.png)
 
-
- 3.SVC
-
-![image](https://user-images.githubusercontent.com/79688191/145771212-d84820f6-df18-4070-b3cb-25c4eaf634e7.png)
+3.SVC
 
 
 4. Decision Tree classifier
 
-![image](https://user-images.githubusercontent.com/79688191/145771247-c2231749-f5d2-4571-a2d4-4b412b4401e1.png)
-
 
 5. Random forest classifier
-![image](https://user-images.githubusercontent.com/79688191/145771281-33053e7a-46ad-4090-9aaf-444e4ae47caa.png)
+
+![image](https://user-images.githubusercontent.com/79688191/145771585-436d77a9-4798-4e1a-a133-c031294e6ea5.png)
 
 
 결론
